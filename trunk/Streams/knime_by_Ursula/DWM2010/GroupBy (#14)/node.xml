@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="name" type="xstring" value="GroupBy"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="grouByColumns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="grouByColumns">
+<config key="InclList">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Winner"/>
+</config>
+<config key="ExclList">
+<entry key="array-size" type="xint" value="56"/>
+<entry key="0" type="xstring" value="date"/>
+<entry key="1" type="xstring" value="title"/>
+<entry key="2" type="xstring" value="datecreated"/>
+<entry key="3" type="xstring" value="newsletter"/>
+<entry key="4" type="xstring" value="deliverytype"/>
+<entry key="5" type="xstring" value="voucher"/>
+<entry key="6" type="xstring" value="case"/>
+<entry key="7" type="xstring" value="numberitems"/>
+<entry key="8" type="xstring" value="gift"/>
+<entry key="9" type="xstring" value="entry"/>
+<entry key="10" type="xstring" value="points"/>
+<entry key="11" type="xstring" value="shippingcosts"/>
+<entry key="12" type="xstring" value="deliverydatepromised"/>
+<entry key="13" type="xstring" value="deliverydatereal"/>
+<entry key="14" type="xstring" value="weight"/>
+<entry key="15" type="xstring" value="remi"/>
+<entry key="16" type="xstring" value="cancel"/>
+<entry key="17" type="xstring" value="used"/>
+<entry key="18" type="xstring" value="w0"/>
+<entry key="19" type="xstring" value="w1"/>
+<entry key="20" type="xstring" value="w2"/>
+<entry key="21" type="xstring" value="w3"/>
+<entry key="22" type="xstring" value="w4"/>
+<entry key="23" type="xstring" value="w5"/>
+<entry key="24" type="xstring" value="w6"/>
+<entry key="25" type="xstring" value="w7"/>
+<entry key="26" type="xstring" value="w8"/>
+<entry key="27" type="xstring" value="w9"/>
+<entry key="28" type="xstring" value="w10"/>
+<entry key="29" type="xstring" value="target90"/>
+<entry key="30" type="xstring" value="0_salutation"/>
+<entry key="31" type="xstring" value="1_salutation"/>
+<entry key="32" type="xstring" value="2_salutation"/>
+<entry key="33" type="xstring" value="9_domain"/>
+<entry key="34" type="xstring" value="4_domain"/>
+<entry key="35" type="xstring" value="12_domain"/>
+<entry key="36" type="xstring" value="8_domain"/>
+<entry key="37" type="xstring" value="1_domain"/>
+<entry key="38" type="xstring" value="6_domain"/>
+<entry key="39" type="xstring" value="2_domain"/>
+<entry key="40" type="xstring" value="11_domain"/>
+<entry key="41" type="xstring" value="5_domain"/>
+<entry key="42" type="xstring" value="3_domain"/>
+<entry key="43" type="xstring" value="0_domain"/>
+<entry key="44" type="xstring" value="10_domain"/>
+<entry key="45" type="xstring" value="7_domain"/>
+<entry key="46" type="xstring" value="2_model"/>
+<entry key="47" type="xstring" value="1_model"/>
+<entry key="48" type="xstring" value="3_model"/>
+<entry key="49" type="xstring" value="2_paymenttype"/>
+<entry key="50" type="xstring" value="1_paymenttype"/>
+<entry key="51" type="xstring" value="0_paymenttype"/>
+<entry key="52" type="xstring" value="3_paymenttype"/>
+<entry key="53" type="xstring" value="0"/>
+<entry key="54" type="xstring" value="1"/>
+<entry key="55" type="xstring" value="Punkte"/>
+</config>
+</config>
+<config key="maxNoneNumericalVals_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="maxNoneNumericalVals" type="xint" value="10000"/>
+<config key="enableHilite_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="enableHilite" type="xboolean" value="false"/>
+<config key="sortInMemory_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="sortInMemory" type="xboolean" value="false"/>
+<config key="aggregationColumn">
+<config key="columnNames">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Punkte"/>
+</config>
+<config key="columnTypes">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+</config>
+<config key="aggregationMethod">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Sum"/>
+</config>
+</config>
+<config key="columnNamePolicy_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="columnNamePolicy" type="xstring" value="Aggregation method (column name)"/>
+</config>
+<entry key="hasContent" type="xboolean" value="true"/>
+<config key="ports">
+<config key="port_0">
+<entry key="index" type="xint" value="0"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 2"/>
+<entry key="port_dir_location" type="xstring" value="port_0"/>
+</config>
+</config>
+</config>
