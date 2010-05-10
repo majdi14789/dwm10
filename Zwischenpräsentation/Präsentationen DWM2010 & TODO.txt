@@ -1,0 +1,69 @@
+Gruppe 2:
+=========
+
+entfernt: 
+---------
+model, 
+domain, 
+title, 
+Datumsfelder
+
+abgeleitet: 
+-----------
+Lieferzeit, 
+bestelltyp (download, normal, gemischt), 
+Monate bei Datumsfeldern
+
+weiteres:
+---------
+delivertype korreliert mit payment type
+model korreliert (fast genau) mit entry
+
+
+
+Gruppe 3:
+=========
+
+entfernt:
+--------- 
+title, 
+gift
+
+abgeleitet: 
+-----------
+advertisingdatacode nur erstes Zeichen, #unseres besser...#
+delivery-/invoicepostcode nur erstes zeichen #wenn dann ganz weg#
+date - datecreated, 
+nur monate
+
+weiteres:
+---------
+Klassifizieren: K-Means (5 Cluster) und dann C&RT (Standard-Einstellungen)
+
+
+Gruppe 4:
+=========
+SVM
+target90=1 -> vervielfachen (wegen sichererer Vorhersage)
+=> weniger verlust
+automatische datenbereinigung (PCA, Merkmalsraum)
+
+
+========
+| TODO |
+========
+abzug der 365 tage bringt inkonsistenzen -> auflösen
+model/entry raus (model interessanter -> drin lassen?)
+deliverytype/paymenttype raus
+domain, title, gift weg ?
+postcodes weg?
+bestellzeit (date-datecreated)
+bestelltyp (digitale und physische medien unterscheiden)
+lieferzeit (deliverydatereal-date)
+nur monate verwenden, datumsangaben raus
+target90==1 duplizieren (strenger bewerten)
+automatischen vorverarbeiter auf alle (alte, neue und neu gefilterte) attribute anwenden (PCA)
+
+
+produktivdatensatz untersuchen (ausreißer keinen voucher schicken? ...)
+-> statistische eigenschaften gleich denen der trainingsdaten?
