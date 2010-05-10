@@ -63,6 +63,7 @@ lieferzeit (deliverydatereal-date)
 nur monate verwenden, datumsangaben raus
 target90==1 duplizieren (strenger bewerten)
 automatischen vorverarbeiter auf alle (alte, neue und neu gefilterte) attribute anwenden (PCA)
+kluster einführen
 
 
 produktivdatensatz untersuchen (ausreißer keinen voucher schicken? ...)
