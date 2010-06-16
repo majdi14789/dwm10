@@ -1,0 +1,3 @@
+sqlplus "lpt_lek_logo/LPT_LEK@(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = i40db01.ipd.uka.de)(PORT = 1521)) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = logotakt)))"
+
+psql --host=magdeburg.ipd.uka.de --username=dwmteam1b
